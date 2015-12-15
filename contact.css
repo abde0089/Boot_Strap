@@ -1,0 +1,103 @@
+.header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+
+body  {
+/*I decided to use an image instead of a background color*/
+	background-image: url("light2.jpg");
+
+}
+
+#msg{
+text-align: center;
+	/*using opacity for a cool feel*/
+	color: rgba(106, 106, 106, 0.75);
+}
+
+form{
+
+	
+	margin: auto;
+	width: 90%;
+	padding: 1em;
+/*I decided to use an image instead of a background color*/
+	background-image: url("city.jpg");
+	border-radius: 1em;
+	border: 1px solid #CCC;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+label {
+   
+	color: black;
+    display: inline-block;
+    width: 65px;
+    text-align: left;
+}
+
+input, textarea {
+
+    font: 1em sans-serif;
+	color: rgba(20, 20, 20, 0.24);
+  
+    width: 90%;
+  
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    
+    border-color: #000;
+}
+textarea {
+
+	vertical-align: top;
+	
+	
+}
+
+.button {
+    
+
+    padding-left: 70px; 
+}
+button {
+ 
+		
+border-radius: 5px;
+	
+	width: 100px;
+    
+}
+h1{
+	text-align: center;
+}
+
+@media only screen and (max-width: 799px) {
+ 
+		input, textarea {
+
+
+    width: 100%;
+  
+}
+	.button {
+    
+
+    padding-left: 5px; 
+}
+	
+}
+
+	
